@@ -1,0 +1,52 @@
+{
+  "autogg": {
+    "settings": {
+      "name": "AutoGG",
+      "enabled": {
+        "name": "Aktiviert"
+      },
+      "refreshCache": {
+        "name": "Cache neu laden",
+        "button": "Neu laden"
+      },
+      "casualGG": {
+        "name": "Casual AutoGG"
+      },
+      "messageDelay": {
+        "name": "Verzögerung"
+      },
+      "ggMessage": {
+        "name": "Nachricht"
+      },
+      "hideGGMessage": {
+        "name": "GG Nachrichten verstecken"
+      },
+      "hideKarmaMessage": {
+        "name": "Karma Nachrichten verstecken"
+      },
+      "secondMessageSettings": {
+        "name": "Zusätzliche Nachricht",
+        "messageDelay": {
+          "name": "Verzögerung"
+        },
+        "message": {
+          "name": "Nachricht"
+        },
+        "sendOnCasual": {
+          "name": "Send on Casual"
+        }
+      },
+      "header": {
+        "general": {
+          "name": "§lGenerel"
+        },
+        "second_message": {
+          "name": "§6Zusätzliche Nachricht"
+        },
+        "hidden_messages": {
+          "name": "§c§lNachrichten verstecken"
+        }
+      }
+    }
+  }
+}

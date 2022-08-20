@@ -36,7 +36,7 @@ plugins {
     id("java-library")
 }
 
-group = "org.example"
+group = "net.crazy"
 version = "1.0.0"
 
 plugins.apply("net.labymod.gradle.addon")
@@ -60,11 +60,12 @@ subprojects {
 
 addon {
     addonInfo {
-        namespace("example")
-        displayName("Example Addon")
-        author("Example Author")
-        description("An Example Description!")
-        version(System.getenv().getOrDefault("VERSION", "0.0.0"))
+        namespace("autogg")
+        displayName("Auto GG")
+        author("Sk1er LLC")
+        description("This addon automatically says a selected phrase at the end of the game on certain servers (Hypixel for instance). Ported from Sk1er's AutoGG")
+        iconUrl("https://mineflash07.github.io/images/addons/autogg.png", project(":core"))
+        version("1.0.0")
 
         //you can add maven dependencies here. the dependencies will then be downloaded by labymod.
         //mavenDependencies().add(MavenDependency("https://repo.maven.apache.org/maven2/", "com.google.guava:guava:31.1-jre"))

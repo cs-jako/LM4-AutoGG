@@ -1,0 +1,52 @@
+{
+  "autogg": {
+    "settings": {
+      "name": "פפoʇn∀",
+      "enabled": {
+        "name": "pǝlqɐuƎ"
+      },
+      "refreshCache": {
+        "name": "ǝɥɔɐƆ ɥsǝɹɟǝɹ",
+        "button": "ɥsǝɹɟǝɹ"
+      },
+      "casualGG": {
+        "name": "פפoʇn∀ lɐnsɐƆ"
+      },
+      "messageDelay": {
+        "name": "ʎɐlǝp ǝƃɐssǝW"
+      },
+      "ggMessage": {
+        "name": "ǝƃɐssǝW"
+      },
+      "hideGGMessage": {
+        "name": "sǝƃɐssǝɯ פפ ǝpᴉH"
+      },
+      "hideKarmaMessage": {
+        "name": "sǝƃɐssǝɯ ɐɯɹɐʞ ǝpᴉH"
+      },
+      "secondMessageSettings": {
+        "name": "ǝƃɐssǝɯ puoɔǝS",
+        "messageDelay": {
+          "name": "ʎɐlǝp ǝƃɐssǝW"
+        },
+        "message": {
+          "name": "ǝƃɐssǝW"
+        },
+        "sendOnCasual": {
+          "name": "lɐnsɐƆ uo puǝS"
+        }
+      },
+      "header": {
+        "general": {
+          "name": "§llɐɹǝuǝפ"
+        },
+        "second_message": {
+          "name": "§6ǝƃɐssǝɯ puoɔǝS"
+        },
+        "hidden_messages": {
+          "name": "§c§lsǝƃɐssǝɯ uǝppᴉH"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-rootProject.name = "labymod4-addon-template"
+rootProject.name = "autogg"
 
 include(":api")
 include(":core")
