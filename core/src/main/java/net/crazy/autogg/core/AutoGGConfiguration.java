@@ -13,6 +13,7 @@ import net.labymod.api.configuration.loader.annotation.SpriteTexture;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 import net.labymod.api.configuration.settings.Setting;
 import net.labymod.api.configuration.settings.annotation.SettingSection;
+import net.labymod.api.inject.LabyGuice;
 import net.labymod.api.util.MethodOrder;
 
 @SuppressWarnings("FieldMayBeFinal")
@@ -20,7 +21,9 @@ import net.labymod.api.util.MethodOrder;
 @SpriteTexture("settings.png")
 public class AutoGGConfiguration extends AddonConfig {
 
-  /**                       GENERAL                 */
+  /**
+   * GENERAL
+   */
   @SettingSection("general")
   @SwitchSetting
   @SpriteSlot(x = 1)
@@ -30,7 +33,8 @@ public class AutoGGConfiguration extends AddonConfig {
   @MethodOrder(after = "enabled")
   @SpriteSlot(x = 0)
   public void refreshCache(Setting setting) {
-
+    AutoGG addon = LabyGuice.getInstance(AutoGG.class);
+    addon.loadRegex();
   }
 
   @MethodOrder(after = "refreshCache")
@@ -48,14 +52,18 @@ public class AutoGGConfiguration extends AddonConfig {
   @SpriteSlot(x = 4)
   private final ConfigProperty<GGMessage> ggMessage = new ConfigProperty<>(GGMessage.GG_UPPER);
 
-  /**                       Second message                 */
+  /**
+   * Second message
+   */
 
   @SettingSection("second_message")
   @MethodOrder(after = "messageDelay")
   @SpriteSlot(x = 5)
   private SecondMessageSettings secondMessageSettings = new SecondMessageSettings();
 
-  /**                       Hidden Messages                 */
+  /**
+   * Hidden Messages
+   */
   @SettingSection("hidden_messages")
   @MethodOrder(after = "secondMessageSettings")
   @SwitchSetting
