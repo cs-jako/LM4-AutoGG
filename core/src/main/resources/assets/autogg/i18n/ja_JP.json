@@ -1,0 +1,52 @@
+{
+  "autogg": {
+    "settings": {
+      "name": "AutoGG",
+      "enabled": {
+        "name": "有効"
+      },
+      "refreshCache": {
+        "name": "キャッシュをリフレッシュ",
+        "button": "リフレッシュ"
+      },
+      "casualGG": {
+        "name": "カジュアルAutoGG"
+      },
+      "messageDelay": {
+        "name": "メッセージ遅れ"
+      },
+      "ggMessage": {
+        "name": "メッセージ"
+      },
+      "hideGGMessage": {
+        "name": "GGメッセージを隠す"
+      },
+      "hideKarmaMessage": {
+        "name": "カルマメッセージを隠す"
+      },
+      "secondMessageSettings": {
+        "name": "2番目のメッセージ",
+        "messageDelay": {
+          "name": "メッセージ遅れ"
+        },
+        "message": {
+          "name": "メッセージ"
+        },
+        "sendOnCasual": {
+          "name": "カジュアルに送る"
+        }
+      },
+      "header": {
+        "general": {
+          "name": "§l一般"
+        },
+        "second_message": {
+          "name": "§62番目のメッセージ"
+        },
+        "hidden_messages": {
+          "name": "§l隠したメッセージ"
+        }
+      }
+    }
+  }
+}

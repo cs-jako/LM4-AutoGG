@@ -3,48 +3,48 @@
     "settings": {
       "name": "AutoGG",
       "enabled": {
-        "name": "Aktiviert"
+        "name": "Aktivert"
       },
       "refreshCache": {
-        "name": "Cache aktualisieren",
-        "button": "Aktualisieren"
+        "name": "Oppdater Mellomlager",
+        "button": "Oppdater"
       },
       "casualGG": {
-        "name": "Casual AutoGG"
+        "name": "Uformell AutoGG"
       },
       "messageDelay": {
-        "name": "Nachrichtenverzögerung"
+        "name": "Meldingsforsinkelse"
       },
       "ggMessage": {
-        "name": "Nachricht"
+        "name": "Melding"
       },
       "hideGGMessage": {
-        "name": "GG-Nachrichten ausblenden"
+        "name": "Skjul GG meldinger"
       },
       "hideKarmaMessage": {
-        "name": "Karma-Nachrichten ausblenden"
+        "name": "Skjul Karma meldinger"
       },
       "secondMessageSettings": {
-        "name": "Zweite Nachricht",
+        "name": "Andre melding",
         "messageDelay": {
-          "name": "Nachrichtenverzögerung"
+          "name": "Meldingsforsinkelse"
         },
         "message": {
-          "name": "Nachricht"
+          "name": "Melding"
         },
         "sendOnCasual": {
-          "name": "Send on Casual"
+          "name": "Send på Uformell"
         }
       },
       "header": {
         "general": {
-          "name": "§lAllgemeines"
+          "name": "§lGenerelt"
         },
         "second_message": {
-          "name": "§6Zweite Nachricht"
+          "name": "§6Andre melding"
         },
         "hidden_messages": {
-          "name": "§c§lVerstecke Nachrichten"
+          "name": "§c§lSkjulte meldinger"
         }
       }
     }

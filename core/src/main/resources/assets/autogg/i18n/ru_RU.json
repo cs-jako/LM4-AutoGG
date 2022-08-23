@@ -1,0 +1,52 @@
+{
+  "autogg": {
+    "settings": {
+      "name": "AutoGG",
+      "enabled": {
+        "name": "Включено"
+      },
+      "refreshCache": {
+        "name": "Обновить кэш",
+        "button": "Обновить"
+      },
+      "casualGG": {
+        "name": "Отправлять в Казуальных играх"
+      },
+      "messageDelay": {
+        "name": "Задержка сообщения"
+      },
+      "ggMessage": {
+        "name": "Сообщение"
+      },
+      "hideGGMessage": {
+        "name": "Скрывать GG-сообщения"
+      },
+      "hideKarmaMessage": {
+        "name": "Скрывать сообщения о Карме"
+      },
+      "secondMessageSettings": {
+        "name": "Второе сообщение",
+        "messageDelay": {
+          "name": "Задержка сообщения"
+        },
+        "message": {
+          "name": "Сообщение"
+        },
+        "sendOnCasual": {
+          "name": "Отправлять в Казуальных играх"
+        }
+      },
+      "header": {
+        "general": {
+          "name": "§lОсновное"
+        },
+        "second_message": {
+          "name": "§6Второе сообщение"
+        },
+        "hidden_messages": {
+          "name": "§c§lСкрытие сообщений"
+        }
+      }
+    }
+  }
+}

@@ -6,31 +6,31 @@
         "name": "Aktiviert"
       },
       "refreshCache": {
-        "name": "Cache aktualisieren",
-        "button": "Aktualisieren"
+        "name": "Cache aktualisiern",
+        "button": "Aktualisiern"
       },
       "casualGG": {
         "name": "Casual AutoGG"
       },
       "messageDelay": {
-        "name": "Nachrichtenverzögerung"
+        "name": "Nochrichtnverzögerung"
       },
       "ggMessage": {
-        "name": "Nachricht"
+        "name": "Nochricht"
       },
       "hideGGMessage": {
-        "name": "GG-Nachrichten ausblenden"
+        "name": "GG-Nochricht ausblendn"
       },
       "hideKarmaMessage": {
-        "name": "Karma-Nachrichten ausblenden"
+        "name": "Karma-Nochricht ausblendn"
       },
       "secondMessageSettings": {
-        "name": "Zweite Nachricht",
+        "name": "Zweite Nochricht",
         "messageDelay": {
-          "name": "Nachrichtenverzögerung"
+          "name": "Nochrichtnverzögerung"
         },
         "message": {
-          "name": "Nachricht"
+          "name": "Nochricht"
         },
         "sendOnCasual": {
           "name": "Send on Casual"
@@ -38,13 +38,13 @@
       },
       "header": {
         "general": {
-          "name": "§lAllgemeines"
+          "name": "§lOllgemeins"
         },
         "second_message": {
-          "name": "§6Zweite Nachricht"
+          "name": "§6Zweite Nochricht"
         },
         "hidden_messages": {
-          "name": "§c§lVerstecke Nachrichten"
+          "name": "§c§lVastecke Nochrichtn"
         }
       }
     }

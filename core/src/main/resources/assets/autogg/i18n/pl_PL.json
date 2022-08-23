@@ -3,48 +3,48 @@
     "settings": {
       "name": "AutoGG",
       "enabled": {
-        "name": "Aktiviert"
+        "name": "Włączone"
       },
       "refreshCache": {
-        "name": "Cache aktualisieren",
-        "button": "Aktualisieren"
+        "name": "Odśwież Pamięć Podręczną",
+        "button": "Odśwież"
       },
       "casualGG": {
-        "name": "Casual AutoGG"
+        "name": "AutoGG Standardowe"
       },
       "messageDelay": {
-        "name": "Nachrichtenverzögerung"
+        "name": "Opóźnienie wiadomości"
       },
       "ggMessage": {
-        "name": "Nachricht"
+        "name": "Wiadomość"
       },
       "hideGGMessage": {
-        "name": "GG-Nachrichten ausblenden"
+        "name": "Ukryj wiadomości GG"
       },
       "hideKarmaMessage": {
-        "name": "Karma-Nachrichten ausblenden"
+        "name": "Ukryj wiadomości Karma"
       },
       "secondMessageSettings": {
-        "name": "Zweite Nachricht",
+        "name": "Druga wiadomość",
         "messageDelay": {
-          "name": "Nachrichtenverzögerung"
+          "name": "Opóźnienie Wiadomości"
         },
         "message": {
-          "name": "Nachricht"
+          "name": "Wiadomość"
         },
         "sendOnCasual": {
-          "name": "Send on Casual"
+          "name": "Wyślij na Standardowym"
         }
       },
       "header": {
         "general": {
-          "name": "§lAllgemeines"
+          "name": "§lOgólne"
         },
         "second_message": {
-          "name": "§6Zweite Nachricht"
+          "name": "§6Druga wiadomość"
         },
         "hidden_messages": {
-          "name": "§c§lVerstecke Nachrichten"
+          "name": "§c§lUkryte wiadomości"
         }
       }
     }
