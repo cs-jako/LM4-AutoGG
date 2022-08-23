@@ -33,7 +33,7 @@ public class AutoGG extends LabyAddon<AutoGGConfiguration> {
   private final HashMap<Pattern, HashMap<TriggerType, Pattern>> antiTriggers = new HashMap<>();
   private final HashMap<Pattern, String> messageAdditions = new HashMap<>();
 
-  private final ExecutorService executorService = Executors.newFixedThreadPool(1);
+  public final ExecutorService executorService = Executors.newFixedThreadPool(1);
 
   private Pattern currentServerPattern;
 
@@ -121,7 +121,7 @@ public class AutoGG extends LabyAddon<AutoGGConfiguration> {
     return this.messageAdditions.get(this.currentServerPattern);
   }
 
-  private void loadRegex() {
+  public void loadRegex() {
     JsonObject requestResult = this.downloadTriggerJson();
 
     if (requestResult == null) {
@@ -179,6 +179,7 @@ public class AutoGG extends LabyAddon<AutoGGConfiguration> {
       this.messageAdditions.put(serverPattern,
           triggerObject.getAsJsonObject("other").get("msg").getAsString());
     }
+    logger().info("[AutoGG] Updated Regex");
   }
 
 
